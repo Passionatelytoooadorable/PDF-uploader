@@ -1,0 +1,12 @@
+backend/
+├── main.py                   # Entry point for FastAPI
+├── config.py                 # Configuration settings
+├── models.py                 # Database models
+├── schemas.py                # Data schemas
+├── services/
+│   ├── pdf_processor.py      # PDF extraction service
+│   ├── nlp_service.py        # NLP processing and Q&A
+└── tests/
+    ├── test_endpoints.py     # Endpoint tests
+    ├── test_websocket.py     # WebSocket tests
+
