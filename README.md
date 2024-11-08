@@ -92,9 +92,15 @@ The project uses rate limiting to ensure that users cannot overload the backend 
 ## Contributions
 Contributions are welcome! If you’d like to contribute to the project:
 1. Fork the repository.
-2. Create a new branch (git checkout -b feature-branch).
-3. Make your changes and commit them (git commit -am 'Add new feature').
-4. Push to the branch (git push origin feature-branch).
+2. Create a new branch.
+   ```bash
+   git checkout -b feature-branch
+3. Make your changes and commit them.
+   ```bash
+   git commit -am 'Add new feature'
+4. Push to the branch.
+   ```bash
+   git push origin feature-branch
 5. Create a new Pull Request.
 
 ## License
