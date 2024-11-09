@@ -77,12 +77,12 @@ The frontend will be running at http://localhost:3000. Ensure that the backend i
 ## API Endpoints
 ### PDF Upload Endpoint
 
-- <b> POST / upload </b>
+- <b> POST `/upload` </b>
     - Accepts a PDF file upload and processes it.
     - Responds with metadata of the uploaded document.
   
 ### WebSocket Question Answering Endpoint 
-- <b> WebSocket /ws/{document_id} </b>
+- <b> WebSocket `/ws/{document_id}` </b>
     - Allows users to send questions related to the uploaded PDF.
     - Responds in real-time with the generated answer from the document's content.
 
